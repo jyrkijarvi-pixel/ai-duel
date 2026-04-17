@@ -42,4 +42,52 @@ Goal: combine the strengths of two different models into one superior result.
 ---
 
 ## 📁 Project structure
+ai-duel/
+├── backend/
+│   ├── app.py
+│   ├── orchestrator.py
+│   └── requirements.txt
+└── docs/
+└── architecture.md
+
+---
+
+## 🛠 Backend components
+
+### `app.py`
+Simple FastAPI HTTP endpoint.
+
+### `orchestrator.py`
+The debate loop between two models.
+
+### `requirements.txt`
+Python dependencies.
+
+---
+
+## 🚀 How to continue development
+
+This repository is intentionally lightweight so any developer can:
+
+- add real API calls (OpenAI, Google, Anthropic, Groq…)
+- build a frontend (React, Svelte, Vue…)
+- add model selection UI
+- improve the debate loop
+- create a visual “AI arena” interface
+
+If you want to continue the project, fork it and go wild.
+
+---
+
+## 📜 License
+
+You may add an MIT License if you want this to be fully open and free.
+
+---
+
+## 💡 Idea
+
+Idea: **Jyrki Järvi (JJ)**  
+Implementation: **whoever discovers this repo**
+
 
