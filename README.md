@@ -6,6 +6,7 @@ AI‑DUEL
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 # AI‑Duel — Two AI models enter, one answer leaves  
 *A collaborative debate engine for LLMs*
+An open-source debate engine where two LLMs challenge each other and refine answers over multiple rounds.
 
 AI‑Duel is an open‑source concept and backend skeleton for a tool where two different language models (e.g., GPT‑4, Gemini, Claude, Groq) are placed into the same “arena” to solve a user‑defined task.
 
