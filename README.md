@@ -93,5 +93,29 @@ You may add an MIT License if you want this to be fully open and free.
 
 Idea: **Jyrki Järvi (JJ)**  
 Implementation: **whoever discovers this repo**
+## 🚀 How to run locally
+
+Follow these steps to run the AI‑Duel backend on your own machine.
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/jyrkijarvi-pixel/ai-duel.git
+cd ai-duel/backend
+python3 -m venv venv
+source venv/bin/activate   # macOS / Linux
+venv\Scripts\activate      # Windows
+pip install -r requirements.txt
+export OPENAI_API_KEY="your_api_key_here"      # macOS / Linux
+setx OPENAI_API_KEY "your_api_key_here"        # Windows
+uvicorn app:app --reload
+http://127.0.0.1:8000 (127.0.0.1 in Bing) → health check
+http://127.0.0.1:8000/docs (127.0.0.1 in Bing) → interactive API UI (Swagger)
+POST /duel
+{
+  "task": "Explain quantum tunneling",
+  "modelA": "gpt-4.1-mini",
+  "modelB": "gpt-4.1-mini",
+  "rounds": 3
+}
 
 
