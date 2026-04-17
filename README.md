@@ -1,7 +1,3 @@
-AI‑DUEL
-
-![Python](...) ![Backend](...) ...
-
 # AI‑Duel — Two AI models enter, one answer leaves
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![Backend](https://img.shields.io/badge/Backend-FastAPI-green)
