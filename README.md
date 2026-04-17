@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Backend](https://img.shields.io/badge/Backend-FastAPI-green)
+![Status](https://img.shields.io/badge/Project-Skeleton-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 # AI‑Duel — Two AI models enter, one answer leaves  
 *A collaborative debate engine for LLMs*
 
