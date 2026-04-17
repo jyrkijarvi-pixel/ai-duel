@@ -25,7 +25,28 @@ AI‑Duel is:
 Goal: combine the strengths of two different models into one superior result.
 
 ---
+## ✨ Features
 
+- **Two‑model debate loop**  
+  Runs a structured back‑and‑forth between two LLMs (Model A vs Model B).
+
+- **Multi‑round refinement**  
+  Each model sees the other’s previous answer and improves its own.
+
+- **Final combined answer**  
+  After the debate rounds, one model produces a synthesized, improved conclusion.
+
+- **Extensible backend skeleton**  
+  Clean FastAPI structure that developers can easily extend with real LLM APIs.
+
+- **Model‑agnostic design**  
+  Works with OpenAI, Anthropic, Groq, Google, or any other LLM provider.
+
+- **Simple, hackable architecture**  
+  Clear orchestrator logic that anyone can modify or build upon.
+
+- **Open‑source and MIT‑licensed**  
+  Free to use, modify, fork, and integrate into other projects.
 ## 🧠 How it works
 
 1. The user sends to the API:
