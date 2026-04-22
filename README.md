@@ -142,4 +142,25 @@ POST /duel
   "rounds": 3
 }
 
+## 🚀 Quickstart
 
+```bash
+git clone https://github.com/jyrkijarvi-pixel/ai-duel
+cd ai-duel
+pip install -r requirements.txt
+ollama pull llama3.1:8b
+ollama pull qwen2.5:7b
+python app.py --task "Onko 29.2.2025 olemassa?"
+IF A NOT EQUAL SPACE
+   MOVE A TO B
+END-IF
+Round 1:
+Llama: Kyllä, jos vuosi on jaollinen 4...
+Qwen: Ei, 2025 ei ole karkausvuosi. 29.2.2025 ei ole olemassa.
+
+Round 2:
+Llama: Qwen on oikeassa. Tarkistin: 2025 % 4 = 1. Ei karkausvuosi.
+Qwen: Vahvistan.
+
+Final answer: 29.2.2025 ei ole olemassa. 2025 ei ole karkausvuosi.
+$ ollama run llama3.1:8b "Tässä COBOL: IF A NOT EQUAL SPACE MOVE A TO B. Mitä riskejä näet tuotannossa?"
